@@ -1,0 +1,65 @@
+body{
+/*background-image:url("image 2.gif");*/
+background-color:#ffe6e6;
+margin:0;
+text-align:center;
+color:white;
+}
+.main{
+width: 500px;
+height: 500px;
+position: relative;
+margin:0px;
+}
+.mainB{
+width: 1590px;
+height:250px ;
+position: relative;
+
+}
+.top{
+margin:0px;
+height:500px;
+width:1590px;
+background-image:url("landscape.jpg");
+position:absolute;
+top: 0;
+left: 0;
+}
+
+.middle{
+height:200px;
+width:1500px;
+margin-left: 40px;
+display:inline-block;
+position: relative;
+background-color:black;
+z-index:1;
+margin-top:470px;
+}
+
+.middleB{
+height:240px;
+width:300px;
+margin-left: 900px;
+display:inline-block;
+position: absolute;
+background-color:red;
+z-index:9;
+margin-top:-220px;
+background-image:url("image 2.gif");
+background-size: contain;
+background-repeat: repeat-y;
+}
+
+
+h1{
+font-family:'Kaushan Script', cursive;
+font-weight: bold ;
+}
+
+p{ font-family: 'Dancing Script', cursive;
+font-style:;
+font-weight: bold;
+font-size:25px;
+}
